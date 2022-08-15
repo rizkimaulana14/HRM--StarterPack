@@ -1,0 +1,110 @@
+#main {
+  background: url("../img/hero_bg.png");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+#main .card > .card-body {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#main .wrapper {
+  position: absolute;
+  bottom: -32rem;
+}
+
+#main .d-flex > .flex-1,
+.flex-2 {
+  background: #fff;
+  width: 100%;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+}
+
+#main .d-flex > .flex-1 {
+  margin-right: 0.75rem;
+}
+
+#main .d-flex > .flex-2 {
+  margin-left: 0.75rem;
+}
+
+#main .text-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#main .d-flex > .flex-1 > .d-flex > .infor > span {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+#main .d-flex > .flex-1 > .d-flex > .infor > p {
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 1rem;
+}
+
+#main .d-flex > .flex-2 > ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#main .d-flex > .flex-2 > ul > li > a {
+  text-decoration: none;
+  line-height: 20px;
+  color: #141414;
+  font-size: 14px;
+}
+
+#main .d-flex > .flex-2 > .go-to-inbox {
+  border-top: 2px solid #00000060;
+  padding-top: 0.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+#main .d-flex > .flex-2 > .go-to-inbox > a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#main > .wrapper > .card {
+  box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(97, 97, 97, 0.75);
+}
+
+#main > .wrapper > .card > .card-body > .d-flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#main > .wrapper > .card > .card-body > .d-flex > .items {
+  flex-grow: 1;
+  height: 100px;
+  width: calc(100% * (1 / 5) - 2px);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.w500 {
+  font-weight: 500;
+}
+
+.w400 {
+  font-weight: 400;
+}
